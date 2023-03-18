@@ -96,4 +96,10 @@ public class PlayerMovement : MonoBehaviour {
         }
         
     }
+
+    private void PickupItem(Collider other) {
+        if(other.gameObject.CompareTag("PickUp")) {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
