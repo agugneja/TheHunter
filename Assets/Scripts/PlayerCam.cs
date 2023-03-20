@@ -12,6 +12,7 @@ public class PlayerCam : MonoBehaviour {
     float yRotation;
 
     private void Start() {
+        ResetPuzzles();
         Cursor.lockState = CursorLockMode.Locked; //locks cursor to middle of screen
         Cursor.visible = false; //makes cursor invisible
     }
@@ -27,5 +28,10 @@ public class PlayerCam : MonoBehaviour {
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+    }
+
+    public void ResetPuzzles() {
+        PlayerPrefs.SetInt("HasKey1", 0);
+        PlayerPrefs.SetInt("HasKey2", 0);
     }
 }

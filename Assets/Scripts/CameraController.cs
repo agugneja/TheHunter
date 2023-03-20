@@ -9,4 +9,5 @@ public class CameraController : MonoBehaviour {
     private void Update() {
         transform.position = cameraPosition.position;
     }
+
 }

@@ -26,8 +26,6 @@ public class PlayerMovement : MonoBehaviour {
 
     public float maxStamina;
     public float stamina;
-    //private float staminaRegen = 3f;
-
 
     public enum MovementState {
         walking,
@@ -95,11 +93,5 @@ public class PlayerMovement : MonoBehaviour {
             rb.velocity = new Vector3(limitedVelocity.x, rb.velocity.y, limitedVelocity.z);
         }
         
-    }
-
-    private void PickupItem(Collider other) {
-        if(other.gameObject.CompareTag("PickUp")) {
-            other.gameObject.SetActive(false);
-        }
     }
 }
