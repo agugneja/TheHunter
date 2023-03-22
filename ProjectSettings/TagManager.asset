@@ -8,6 +8,7 @@ TagManager:
   - FenceGate
   - Lock
   - PickUp2
+  - Mutant
   layers:
   - Default
   - TransparentFX
