@@ -9,6 +9,10 @@ TagManager:
   - Lock
   - PickUp2
   - Mutant
+  - exitFence
+  - battery1
+  - battery2
+  - electricalPanel
   layers:
   - Default
   - TransparentFX

@@ -15,5 +15,16 @@ public class DestroyOnCollision : MonoBehaviour
            PlayerPrefs.SetInt("HasKey2", 1);
             gameObject.SetActive(false);
         }
+
+        else if(other.gameObject.tag == "Player" && gameObject.tag == "battery1") {
+            PlayerPrefs.SetInt("HasBattery1", 1);
+            gameObject.SetActive(false);
+        }
+
+        else if(other.gameObject.tag == "Player" && gameObject.tag == "battery2") {
+            PlayerPrefs.SetInt("HasBattery2", 1);
+            gameObject.SetActive(false);
+        }
+
     }
 }

@@ -33,5 +33,8 @@ public class PlayerCam : MonoBehaviour {
     public void ResetPuzzles() {
         PlayerPrefs.SetInt("HasKey1", 0);
         PlayerPrefs.SetInt("HasKey2", 0);
+        PlayerPrefs.SetInt("HasBattery1", 1);
+        PlayerPrefs.SetInt("HasBattery2", 1);
+        PlayerPrefs.SetInt("PowerOn", 0);
     }
 }
