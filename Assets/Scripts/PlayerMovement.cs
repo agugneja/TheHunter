@@ -61,13 +61,13 @@ public class PlayerMovement : MonoBehaviour {
         if(Input.GetKey(sprintKey) && stamina > 0) {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
-            stamina = Mathf.Clamp(stamina - (5f * Time.deltaTime), 0f, maxStamina);
+            stamina = Mathf.Clamp(stamina - (.2f * Time.deltaTime), 0f, maxStamina);
         }
         else {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
             if(stamina < maxStamina) {
-                stamina = Mathf.Clamp(stamina + (3f * Time.deltaTime), 0f, maxStamina);
+                stamina = Mathf.Clamp(stamina + (.3f * Time.deltaTime), 0f, maxStamina);
             }
 
         }

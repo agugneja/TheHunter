@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth = 100;
+    public float maxHealth = 1f;
+    public float currentHealth = 1f;
 
     private void OnCollisionEnter(Collision other) {
         if(other.collider.gameObject.CompareTag("Mutant")) {
-            currentHealth -= 20;
+           currentHealth -= .2f;
         }
     }
 }
