@@ -2348,7 +2348,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2392,11 +2392,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_Name
-      value: battery2
+      value: Battery2
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_TagString
-      value: battery2
+      value: Battery2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
@@ -7156,7 +7156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4543735452169468501, guid: 45ac25bcb171c1f4bae5c18bb09f890a, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: ExitFence
       objectReference: {fileID: 0}
     - target: {fileID: 7383335143175320926, guid: 45ac25bcb171c1f4bae5c18bb09f890a, type: 3}
       propertyPath: m_RootOrder
@@ -8097,7 +8097,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 252629911600637343, guid: 974c90fb5c85e1145b28c692035ab2f2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 252629911600637343, guid: 974c90fb5c85e1145b28c692035ab2f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8141,11 +8141,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3874798687770068871, guid: 974c90fb5c85e1145b28c692035ab2f2, type: 3}
       propertyPath: m_Name
-      value: prf_v_key_02
+      value: Key1
       objectReference: {fileID: 0}
     - target: {fileID: 3874798687770068871, guid: 974c90fb5c85e1145b28c692035ab2f2, type: 3}
       propertyPath: m_TagString
-      value: PickUp
+      value: Key1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 974c90fb5c85e1145b28c692035ab2f2, type: 3}
@@ -10816,11 +10816,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5204548640394235114, guid: 9750c63329957504e950add108593ae0, type: 3}
       propertyPath: m_Name
-      value: electricPanel
+      value: ElectricPanel
       objectReference: {fileID: 0}
     - target: {fileID: 5204548640394235114, guid: 9750c63329957504e950add108593ae0, type: 3}
       propertyPath: m_TagString
-      value: electricalPanel
+      value: ElectricalPanel
       objectReference: {fileID: 0}
     - target: {fileID: 9106591468883427065, guid: 9750c63329957504e950add108593ae0, type: 3}
       propertyPath: m_RootOrder
@@ -14040,7 +14040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439268441}
   m_Layer: 0
-  m_Name: enclose fence (1)
+  m_Name: EncloseFenceRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23365,7 +23365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4543735452169468501, guid: 45ac25bcb171c1f4bae5c18bb09f890a, type: 3}
       propertyPath: m_TagString
-      value: exitFence
+      value: ExitFence
       objectReference: {fileID: 0}
     - target: {fileID: 7383335143175320926, guid: 45ac25bcb171c1f4bae5c18bb09f890a, type: 3}
       propertyPath: m_RootOrder
@@ -25496,11 +25496,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3874798687770068871, guid: 2d678e3e202b1344d999c6e60927f9ab, type: 3}
       propertyPath: m_Name
-      value: prf_v_key_03
+      value: Key2
       objectReference: {fileID: 0}
     - target: {fileID: 3874798687770068871, guid: 2d678e3e202b1344d999c6e60927f9ab, type: 3}
       propertyPath: m_TagString
-      value: PickUp2
+      value: Key2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d678e3e202b1344d999c6e60927f9ab, type: 3}
@@ -28191,7 +28191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7173297206326680262, guid: 0bff3850fb8b0914ba97ae33a25041c1, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7173297206326680262, guid: 0bff3850fb8b0914ba97ae33a25041c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37817,7 +37817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7173297206326680262, guid: 0bff3850fb8b0914ba97ae33a25041c1, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7173297206326680262, guid: 0bff3850fb8b0914ba97ae33a25041c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41528,7 +41528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41572,11 +41572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_Name
-      value: battery1
+      value: Battery1
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_TagString
-      value: battery1
+      value: Battery1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
@@ -42038,7 +42038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333641346}
   m_Layer: 0
-  m_Name: exit fence
+  m_Name: ExitFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43933,7 +43933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384377292}
   m_Layer: 0
-  m_Name: enclose fence 2
+  m_Name: EncloseFenceStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48055,7 +48055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488797301}
   m_Layer: 0
-  m_Name: fence
+  m_Name: FenceMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54675,7 +54675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689178697}
   m_Layer: 0
-  m_Name: enclose fence
+  m_Name: EncloseFenceLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57861,7 +57861,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1804596741
 PrefabInstance:
@@ -59732,7 +59732,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8f4b183d4319f7340be3369f0bbbe701, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f4b183d4319f7340be3369f0bbbe701, type: 3}
       propertyPath: m_LocalScale.x

@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PickUp
   - FenceGate
   - Lock
-  - PickUp2
   - Mutant
-  - exitFence
-  - battery1
-  - battery2
-  - electricalPanel
+  - Key1
+  - Key2
+  - ExitFence
+  - Battery1
+  - Battery2
+  - ElectricalPanel
   layers:
   - Default
   - TransparentFX
