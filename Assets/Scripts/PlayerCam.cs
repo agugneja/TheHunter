@@ -18,6 +18,7 @@ public class PlayerCam : MonoBehaviour {
     }
 
     private void Update() {
+        //controls players look direction
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX; //get x mouse input
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY; //get y mouse input
 

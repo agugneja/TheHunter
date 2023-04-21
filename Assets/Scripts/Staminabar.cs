@@ -12,6 +12,7 @@ public class Staminabar : MonoBehaviour
     }
 
     void Update() {
+        //fills stamina bar based on amount of stamina player has
         GameObject player = GameObject.Find("Player");
         PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
         float stamina = playerMovement.stamina;
@@ -19,6 +20,7 @@ public class Staminabar : MonoBehaviour
         staminabar.fillAmount = stamina;
 
         if(stamina <= 0.25f) {
+            //if low on stamina set bar to red
             staminabar.color = Color.red;
         }
         else {

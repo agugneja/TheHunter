@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour {
    public Transform cameraPosition;
 
     private void Update() {
+        //keeps camera on player
         transform.position = cameraPosition.position;
     }
 

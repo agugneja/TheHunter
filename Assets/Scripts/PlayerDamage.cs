@@ -12,14 +12,15 @@ public class PlayerDamage : MonoBehaviour
     private void OnTriggerStay(Collider other) {
         if(other.GetComponent<Collider>().gameObject.CompareTag("Mutant")) {
            StartCoroutine(Damage());
-           Debug.Log(currentHealth);
         }
     }
 
     void checkDeath() {
+        //check if health is close to 0
         if(currentHealth <= 0.001f) {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            //trigger lose screen
             SceneManager.LoadScene(3);
         }
     }
@@ -30,6 +31,7 @@ public class PlayerDamage : MonoBehaviour
 
     IEnumerator Damage() 
     {
+        //allows damage to be done every 2.7 seconds (length of animation)
         if(canCauseDamage) {
             canCauseDamage = false;            
             currentHealth -= .2f;

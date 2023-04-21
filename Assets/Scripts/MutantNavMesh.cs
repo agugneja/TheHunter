@@ -18,10 +18,12 @@ public class MutantNavMesh : MonoBehaviour
     }
 
     private void Update() {
+        //mutant navmesh towards player
         navMeshAgent.destination = movePosTrans.position;
     }
 
     void OnTriggerStay(Collider other) {
+        //attack animation on collision with player
         if(other.gameObject.tag == "Player") {
             anim.Play("attack");
         }

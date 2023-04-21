@@ -58,12 +58,14 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void StateHandler() {
+        //allows player to sprint if they have stamina
         if(Input.GetKey(sprintKey) && stamina > 0) {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
             stamina = Mathf.Clamp(stamina - (.2f * Time.deltaTime), 0f, maxStamina);
         }
         else {
+            //else walk
             state = MovementState.walking;
             moveSpeed = walkSpeed;
             if(stamina < maxStamina) {
