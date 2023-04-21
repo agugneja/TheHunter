@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuController : MonoBehaviour
+public class SceneControl : MonoBehaviour
 {
     public void StartGame() {
         SceneManager.LoadScene(1);
@@ -11,5 +11,9 @@ public class MainMenuController : MonoBehaviour
 
     public void QuitGame() {
         Application.Quit();
+    }
+
+    public void MainMenu() {
+        SceneManager.LoadScene(0);
     }
 }
