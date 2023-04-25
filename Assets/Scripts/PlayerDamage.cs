@@ -8,6 +8,7 @@ public class PlayerDamage : MonoBehaviour
     public float maxHealth = 1f;
     public float currentHealth = 1f;
     bool canCauseDamage = true;
+    AudioSource source;
 
     private void OnTriggerStay(Collider other) {
         if(other.GetComponent<Collider>().gameObject.CompareTag("Mutant")) {
@@ -29,11 +30,15 @@ public class PlayerDamage : MonoBehaviour
         checkDeath();
     }
 
-    IEnumerator Damage() 
-    {
+    void Start() {
+        source = GetComponent<AudioSource>();
+    }
+
+    IEnumerator Damage() {
         //allows damage to be done every 2.7 seconds (length of animation)
         if(canCauseDamage) {
-            canCauseDamage = false;            
+            canCauseDamage = false;
+            source.Play();
             currentHealth -= .2f;
 
             yield return new WaitForSeconds(2.7f);
