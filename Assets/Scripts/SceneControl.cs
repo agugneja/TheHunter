@@ -19,4 +19,8 @@ public class SceneControl : MonoBehaviour
         //load main menu
         SceneManager.LoadScene(0);
     }
+
+    public void InstructionsMenu() {
+        SceneManager.LoadScene(4);
+    }
 }
