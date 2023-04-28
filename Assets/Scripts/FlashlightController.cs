@@ -5,10 +5,12 @@ using UnityEngine;
 public class FlashlightController : MonoBehaviour {
     [SerializeField] GameObject flashlight;
     private bool flashlightIsOn = false;
+    AudioSource source;
 
     void Start() {
         //flashlight starts off
         flashlight.gameObject.SetActive(false);
+        source = GetComponent<AudioSource>();
     }
 
     void Update() {
@@ -21,6 +23,7 @@ public class FlashlightController : MonoBehaviour {
                 flashlight.gameObject.SetActive(false);
                 flashlightIsOn = false;
             }
+            source.Play();
         }
     }
 }
